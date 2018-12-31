@@ -3,6 +3,9 @@ def array_rotation_count(A):
     Return the rotation count of the circular array
     :param A: given array
     :return: array rotation count
+
+    Time Complexity : O(log n)
+    Space Complexity : O(1)
     '''
     n = len(A)
     start = 0
