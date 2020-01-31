@@ -1,76 +1,72 @@
-def count_element_occurrence(A, x):
-    '''
-    Function to count the occurrences of a given element in a sorted array
-    :param A: given array
-    :param x: element to search and count
-    :return: count of the element x in the array
-
-    Time Complexity : O(log n) [Worst Case : O(n), when all elements are same]
-    '''
-    n = len(A)-1
-    if A[0] == A[n]:
-        return n+1
-
-    min_index = find_min_index(A, 0, n, x)
-    max_index = find_max_index(A, 0, n, x)
-    if min_index == max_index == -1:
-        return 0
-    return (max_index - min_index) + 1
+from typing import List
 
 
-def find_min_index(A, start, end, x):
-    '''
-    Find the min index of an element in sorted array
-    :param A: given array
-    :param start: start index
-    :param end: end index
-    :param x: search element
-    :return: minimum index of a search element
-    '''
-    result = -1
+def find_min_index(A: List[int], x: int) -> int:
+    """
+    Finds the max index of the element being searched
+    :param A: Input Array
+    :param x: Element to search in the array
+    :return:
+    """
+    min_index = -1
+    start = 0
+    end = len(A)-1
+
     while start <= end:
-        mid = (start+end)//2
-        if A[mid] == x:
-            result = mid
-            end = mid - 1
+        mid = start + (end-start)//2
 
+        if A[mid] == x:
+            min_index = mid
+            end = mid - 1
         elif x < A[mid]:
             end = mid - 1
-
         else:
             start = mid + 1
-    return result
+
+    return min_index
 
 
-def find_max_index(A, start, end, x):
-    '''
-    Find the max index of an element in sorted array
-    :param A: given array
-    :param start: start index
-    :param end: end index
-    :param x: search element
-    :return: maximum index of a search element
-        '''
-    result = -1
+def find_max_index(A: List[int], x: int) -> int:
+    """
+    Finds the max index of the element being searched
+    :param A: Input Array
+    :param x: Element to search in the array
+    :return:
+    """
+    max_index = -1
+    start = 0
+    end = len(A) - 1
+
     while start <= end:
-        mid = (start+end)//2
-        if A[mid] == x:
-            result = mid
-            start = mid + 1
+        mid = start + (end - start) // 2
 
+        if A[mid] == x:
+            max_index = mid
+            start = mid + 1
         elif x < A[mid]:
             end = mid - 1
-
         else:
             start = mid + 1
-    return result
+
+    return max_index
 
 
-def main():
-    # A = [1, 1, 3, 3, 5, 5, 5, 5, 5, 9, 9, 11]
-    A = [1, 1, 1, 1, 1, 1, 1, 1]
-    num = int(input("Enter the number : "))
-    print("Number {0} occurs {1} times.".format(num, count_element_occurrence(A, num)))
+def count_element(A: List[int], x: int) -> int:
+    """
+    Counts the number of occurrence of an element in the given sorted array
+    :param A: Input Array
+    :param x: Element to search in the array
+    :return: Count of the element being searched
 
-if __name__ == '__main__':
-    main()
+    Time Complexity: O(log n)
+    """
+    min_index = find_min_index(A, x)
+    max_index = find_max_index(A, x)
+
+    return (max_index-min_index)+1
+
+
+A = [1, 1, 3, 3, 5, 5, 5, 5, 9, 11]
+x = int(input("Enter the element:"))
+result = count_element(A, x)
+print("Count of the element: ", result)

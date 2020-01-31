@@ -1,27 +1,29 @@
-def linear_search(A, x):
-    '''
-    Search for an element in an unsorted array
-    :param A: given array
-    :return: True if element exists, else False
+from typing import List
+
+
+def linear_search(A: List[int], x: int) -> int:
+    """
+    Linear Search
+    :param A: Input Array
+    :param x: Element to Search
+    :return: Index of the Element
 
     Time Complexity : O(n)
-    Space Complexity : O(1)
-    '''
-    for i in range(0, len(A)):
+    """
+    n = len(A)
+
+    for i in range(n):
         if A[i] == x:
             return i
+
     return -1
 
 
-def main():
-    A = [2, 6, 13, 21, 36, 47, 63, 81, 97]
-    num = int(input("Enter a number : "))
+A = [2, 6, 13, 21, 36, 47, 63, 81, 97]
+x = int(input("Enter the number to search: "))
+result = linear_search(A, x)
 
-    result = linear_search(A, num)
-    if result == -1:
-        print("Number not found in the array.")
-    else:
-        print("Number {0} found at index {1}.".format(num, result))
-
-if __name__ == '__main__':
-    main()
+if result == -1:
+    print("Element not found.")
+else:
+    print("Element {0} found at index {1}.".format(x, result))
