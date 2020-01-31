@@ -1,43 +1,39 @@
-def array_rotation_count(A):
-    '''
+from typing import List
+
+
+def array_rotation_count(A: List[int]) -> int:
+    """
     Return the rotation count of the circular array
     :param A: given array
     :return: array rotation count
 
     Time Complexity : O(log n)
-    Space Complexity : O(1)
-    '''
-    n = len(A)
+    """
     start = 0
-    end = n-1
+    end = len(A)-1
+    n = len(A)
 
     while start <= end:
-        # case 1
+        # Case 1 : If we are in sorted half of the array
         if A[start] <= A[end]:
             return start
 
-        mid = (start+end)//2
+        mid = start + (end-start)//2
         next = (mid+1) % n
         prev = (mid+n-1) % n
 
-        # case 2
-        if A[prev] <= A[mid] <= A[next]:
+        # Case 2: If we are at the pivot element - elements on both sides are greater
+        if A[prev] >= A[mid] <= A[next]:
             return mid
 
-        # case 3
+        # Case 3: If we are in unsorted half, middle element is smaller than element at the end
         if A[mid] <= A[end]:
-            end = mid-1
+            end = mid - 1
 
-        # case 4
+        # Case 4: If we are in unsorted half, middle element is greater than element at the end
         if A[mid] >= A[start]:
-            start = mid+1
-    return -1
+            start = mid + 1
 
 
-def main():
-    A = [11, 12, 15, 18, 2, 5, 6, 8]
-    # B = [1, 2, 3, 4, 5, 6]
-    print("Array is rotated {0} times.".format(array_rotation_count(A)))
-
-if __name__ == '__main__':
-    main()
+A = [11, 12, 15, 18, 2, 5, 6, 8]
+print("Array rotation count: ", array_rotation_count(A))
