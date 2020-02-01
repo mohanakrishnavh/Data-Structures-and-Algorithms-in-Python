@@ -34,7 +34,7 @@ def binary_search(A: List[int], x: int) -> int:
 
 
 A = [2, 6, 13, 21, 36, 47, 63, 81, 97]
-x = int(input("Enter the number to search: "))
+x = int(input("Enter the element to search: "))
 result = binary_search(A, x)
 
 if result == -1:

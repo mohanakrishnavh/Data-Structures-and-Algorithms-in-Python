@@ -6,7 +6,7 @@ def find_min_index(A: List[int], x: int) -> int:
     Finds the max index of the element being searched
     :param A: Input Array
     :param x: Element to search in the array
-    :return:
+    :return: Min Index of the element being searched
     """
     min_index = -1
     start = 0
@@ -31,7 +31,7 @@ def find_max_index(A: List[int], x: int) -> int:
     Finds the max index of the element being searched
     :param A: Input Array
     :param x: Element to search in the array
-    :return:
+    :return: Max Index of the element being searched
     """
     max_index = -1
     start = 0

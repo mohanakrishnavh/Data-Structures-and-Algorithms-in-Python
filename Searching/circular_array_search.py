@@ -1,41 +1,49 @@
-def circular_array_search(A, x):
-    '''
-    Search for an element in sorted circular array
-    :param A: given array
-    :param x: search element
-    :return: index of the element found in the array
-    '''
-    n = len(A)
+from typing import List
+
+
+def circular_array_search(A: List[int], x) -> int:
+    """
+    Searches for a given element in circular sorted array
+    :param A: Input Array
+    :param x: Element to Search
+    :return: Index of the Element
+    """
     start = 0
-    end = n-1
+    end = len(A)-1
 
     while start <= end:
-        mid = (start + end)//2
+        mid = start + (end-start)//2
 
-        # case 1:
+        # Case 1: If mid element is the element we are searching
         if A[mid] == x:
             return mid
 
-        # case 2:
+        # Case 2: Searching in the right half
         if A[mid] <= A[end]:
-            if A[mid] < x <= A[end]:
-                start = mid + 1
+            # If we are in sorted half
+            if A[mid] <= x <= A[end]:
+                start = mid+1
+            # If we are in unsorted half
             else:
-                end = mid - 1
+                end = mid-1
 
-        # case 3:
+        # Case 3: Searching in the left half
         if A[start] <= A[mid]:
-            if A[start] <= x < A[mid]:
-                end = mid - 1
+            # If we are in sorted half
+            if A[start] <= x <= A[mid]:
+                end = mid-1
+            # If we are in unsorted half
             else:
-                start = mid + 1
+                start = mid+1
+
     return -1
 
 
-def main():
-    A = [12, 14, 18, 21, 3, 6, 8, 9]
-    num = int(input("Enter the number : "))
-    print("Element {0} found at index {1}.".format(num, circular_array_search(A, num)))
+A = [12, 14, 18, 21, 3, 6, 8, 9]
+x = int(input("Enter the element to search: "))
+result = circular_array_search(A, x)
 
-if __name__ == '__main__':
-    main()
+if result != -1:
+    print("Element {0} found at index: {1}".format(x, result))
+else:
+    print("Element not found")
