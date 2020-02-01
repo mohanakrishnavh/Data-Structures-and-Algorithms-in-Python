@@ -24,6 +24,6 @@ x = int(input("Enter the number to search: "))
 result = linear_search(A, x)
 
 if result == -1:
-    print("Element not found.")
+    print("Number not found.")
 else:
-    print("Element {0} found at index {1}.".format(x, result))
+    print("Number {0} found at index {1}.".format(x, result))

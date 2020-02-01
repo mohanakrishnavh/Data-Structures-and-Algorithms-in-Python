@@ -40,10 +40,10 @@ def circular_array_search(A: List[int], x) -> int:
 
 
 A = [12, 14, 18, 21, 3, 6, 8, 9]
-x = int(input("Enter the element to search: "))
+x = int(input("Enter the number to search: "))
 result = circular_array_search(A, x)
 
 if result != -1:
-    print("Element {0} found at index: {1}".format(x, result))
+    print("Number {0} found at index: {1}".format(x, result))
 else:
-    print("Element not found")
+    print("Number not found")

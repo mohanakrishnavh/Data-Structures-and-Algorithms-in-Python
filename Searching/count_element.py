@@ -67,6 +67,6 @@ def count_element(A: List[int], x: int) -> int:
 
 
 A = [1, 1, 3, 3, 5, 5, 5, 5, 9, 11]
-x = int(input("Enter the element:"))
+x = int(input("Enter the number:"))
 result = count_element(A, x)
-print("Count of the element: ", result)
+print("Count of the number: ", result)

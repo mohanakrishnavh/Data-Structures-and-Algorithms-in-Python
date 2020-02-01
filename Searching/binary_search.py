@@ -34,10 +34,10 @@ def binary_search(A: List[int], x: int) -> int:
 
 
 A = [2, 6, 13, 21, 36, 47, 63, 81, 97]
-x = int(input("Enter the element to search: "))
+x = int(input("Enter the number to search: "))
 result = binary_search(A, x)
 
 if result == -1:
-    print("Element not found.")
+    print("Number not found.")
 else:
-    print("Element {0} found at index {1}.".format(x, result))
+    print("Number {0} found at index {1}.".format(x, result))
