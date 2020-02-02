@@ -2,6 +2,10 @@ from typing import List
 
 
 def two_sum(nums: List[int], target: int) -> List[int]:
+    """
+    Time Complexity : O(n)
+    Space Complexity: O(n)
+    """
     n = len(nums)
     complement_map = {nums[0]: 0}
 
