@@ -2,16 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/list_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinkedList/list_driver.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="dc060b15-35ae-4820-bd23-32f43ec29996" />
   <component name="ProjectId" id="1X8pv7hjjp8KTDXXYInBM6rgXTC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,12 +56,24 @@
       <option name="presentableId" value="Default" />
       <updated>1580437803961</updated>
       <workItem from="1580437805776" duration="40000" />
-      <workItem from="1580955937791" duration="38000" />
+      <workItem from="1580955937791" duration="843000" />
     </task>
+    <task id="LOCAL-00001" summary="Finished Linked List Implementation">
+      <created>1580956023129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580956023129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finished Linked List Implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Linked List Implementation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1580956022626">

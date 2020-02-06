@@ -209,14 +209,20 @@ class LinkedList:
 
         return count
 
-    def print_list(self) -> None:
+    def print_list(self, head=None) -> None:
         """
         Prints the elements in the list
         :return: None
 
         Time Complexity: O(n)
         """
-        current_node = self.head
+
+        current_node = head if (head is not None) else self.head
+
+        # If the linked list is empty
+        if current_node is None:
+            return
+
         while current_node.next is not None:
             print(current_node.data, end=" -> ")
             current_node = current_node.next
