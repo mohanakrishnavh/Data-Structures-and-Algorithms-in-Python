@@ -26,6 +26,14 @@ class LinkedList:
             self._insert_at_tail(data)
 
     def _insert_at_index(self, data: int, index: int) -> None:
+        """
+        Inserting a new element at the given index of the Linked List
+        :param data: Data of the new element
+        :param index: Index to insert
+        :return: None
+
+        Time Complexity: O(n)
+        """
         # If the list is empty
         if self.head is None:
             self.head = Node(data)
@@ -159,21 +167,57 @@ class LinkedList:
             previous_node.next = current_node.next
             current_node.next = None
 
+    def search(self, x) -> int:
+        """
+        Search an element in the Linked List
+        :param x: Element to search
+        :return: Index of the element if found
+
+        Time Complexity: O(n)
+        """
+        if self.head is None:
+            return -1
+
+        current_node = self.head
+        result = 0
+
+        while current_node is not None:
+            if current_node.data == x:
+                return result
+
+            current_node = current_node.next
+            result += 1
+
+        return -1
+
+    def count(self) -> int:
+        """
+        Returns the count/size of the Linked List
+        :return: Size/Count of the Linked List
+
+        Time Complexity: O(n)
+        """
+        count = 0
+
+        if self.head is None:
+            count = 0
+        else:
+            current_node = self.head
+            while current_node is not None:
+                current_node = current_node.next
+                count += 1
+
+        return count
+
     def print_list(self) -> None:
         """
         Prints the elements in the list
+        :return: None
 
         Time Complexity: O(n)
-        :return: None
         """
         current_node = self.head
         while current_node.next is not None:
             print(current_node.data, end=" -> ")
             current_node = current_node.next
         print(current_node.data)
-
-
-
-
-
-

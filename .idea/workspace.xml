@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="" />
+    <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580437803961</updated>
       <workItem from="1580437805776" duration="40000" />
+      <workItem from="1580955937791" duration="38000" />
     </task>
     <servers />
   </component>
