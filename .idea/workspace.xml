@@ -54,9 +54,17 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1580956022626">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="583" y="29" key="CommitChangelistDialog2/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580956022626" />
     <state x="546" y="186" key="FileChooserDialogImpl" timestamp="1580437836322">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="546" y="186" key="FileChooserDialogImpl/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580437836322" />
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580956043713">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580956043713" />
   </component>
 </project>
