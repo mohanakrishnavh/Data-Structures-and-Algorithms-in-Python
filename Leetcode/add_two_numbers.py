@@ -3,6 +3,14 @@ from DataStructures.LinkedList.LinkedList import Node
 
 
 def add_two_numbers(l1: Node, l2: Node) -> Node:
+    """
+    Add two numbers stored as Linked List
+    :param l1: Linked List 1
+    :param l2: Linked List 2
+    :return: Head of the added Linked List
+
+    Time Complexity: O(max(l1,l2))
+    """
     head = None
     current_node = None
     carry = 0
@@ -17,11 +25,11 @@ def add_two_numbers(l1: Node, l2: Node) -> Node:
             l2 = l2.next
 
         # case 2: When one of the nodes is None
-        elif l1 is None:
+        elif (l1 is None) and (l2 is not None):
             total += l2.data
             l2 = l2.next
 
-        elif l2 is None:
+        elif (l1 is not None) and (l2 is None):
             total += l1.data
             l1 = l1.next
 

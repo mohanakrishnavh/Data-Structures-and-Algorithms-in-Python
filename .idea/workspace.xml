@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/add_two_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/add_two_numbers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +110,8 @@
       <workItem from="1580955937791" duration="1462000" />
       <workItem from="1581557738276" duration="1292000" />
       <workItem from="1581782096122" duration="1024000" />
-      <workItem from="1581783628689" duration="5000" />
+      <workItem from="1581783628689" duration="191000" />
+      <workItem from="1581784497022" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Linked List Implementation">
       <created>1580956023129</created>
