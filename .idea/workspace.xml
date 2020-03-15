@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Graph/_Graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Graph/Graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataStructures/Graph/graph_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/Graph/graph_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +31,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/DataStructures/Graph" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Emkae\Data-Structures-and-Algorithms-in-Python\DataStructures\Graph" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Emkae\Data-Structures-and-Algorithms-in-Python\DataStructures\Graph" />
       <recent name="C:\Emkae\Data-Structures-and-Algorithms-in-Python\Leetcode" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Emkae\Data-Structures-and-Algorithms-in-Python\DataStructures\Graph" />
     </key>
   </component>
@@ -147,7 +146,8 @@
       <workItem from="1581783628689" duration="191000" />
       <workItem from="1581784497022" duration="5169000" />
       <workItem from="1584283358335" duration="287000" />
-      <workItem from="1584283686671" duration="235000" />
+      <workItem from="1584283686671" duration="969000" />
+      <workItem from="1584291896044" duration="113000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Linked List Implementation">
       <created>1580956023129</created>
@@ -171,26 +171,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="583" y="29" key="CommitChangelistDialog2/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580956022626" />
-    <state x="546" y="186" key="FileChooserDialogImpl" timestamp="1580437836322">
+    <state x="546" y="186" key="FileChooserDialogImpl" timestamp="1584284907519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="546" y="186" key="FileChooserDialogImpl/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580437836322" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1584283919640">
+    <state x="546" y="186" key="FileChooserDialogImpl/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284907519" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1584284915778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584283919640" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1584283919640">
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1584284915778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584283919640" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1584283919640">
+    <state width="1877" height="261" key="GridCell.Tab.0.center/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1584284915777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584283919640" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1584283919640">
+    <state width="1877" height="261" key="GridCell.Tab.0.left/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915777" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1584284915778">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584283919640" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
     <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580956043713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

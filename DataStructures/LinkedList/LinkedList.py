@@ -8,6 +8,12 @@ class LinkedList:
     def __init__(self):
         self.head = None
 
+    def get_head(self):
+        """
+        :return: Head of the Linked List
+        """
+        return self.head
+
     def insert(self, data: int, index=None) -> None:
         """
         Inserting a new element to the Linked List
