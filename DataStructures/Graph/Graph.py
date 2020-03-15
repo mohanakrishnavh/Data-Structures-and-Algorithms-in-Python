@@ -1,4 +1,4 @@
-from DataStructures.LinkedList import LinkedList
+from DataStructures.LinkedList.LinkedList import LinkedList
 
 
 class Graph:
