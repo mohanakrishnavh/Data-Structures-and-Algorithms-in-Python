@@ -1,7 +1,8 @@
 from datastructures.linkedlist.LinkedList import Node, LinkedList
+from typing import Union
 
 
-def remove_duplicates(head: Node):
+def remove_duplicates(head: Node) -> Union[None, Node]:
     if head is None:
         return
 
