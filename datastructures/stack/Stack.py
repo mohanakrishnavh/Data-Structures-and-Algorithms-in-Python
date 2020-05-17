@@ -19,7 +19,7 @@ class Stack:
             self.top -= 1
             self.stack.pop()
         else:
-            print("Stack is empty.")
+            print("stack is empty.")
 
     def peek(self):
         '''
@@ -28,7 +28,7 @@ class Stack:
         if self.top > -1:
             return self.stack[self.top]
         else:
-            print("Stack is empty.")
+            print("stack is empty.")
 
     def is_empty(self):
         '''

@@ -89,7 +89,7 @@ class BinarySearchTree:
         :return: minimum value in the tree
         '''
         if self.root is None:
-            print("Tree is empty!")
+            print("tree is empty!")
             return -1
 
         current = self.root
@@ -104,7 +104,7 @@ class BinarySearchTree:
         :return: minimum value in the tree
         '''
         if self.root is None:
-            print("Tree is empty!")
+            print("tree is empty!")
             return -1
 
         current = self.root
@@ -125,7 +125,7 @@ class BinarySearchTree:
         Helper function to find the minimum value recursively
         '''
         if self.root is None:
-            print("Tree is empty!")
+            print("tree is empty!")
             return -1
 
         elif node.left is None:
@@ -140,7 +140,7 @@ class BinarySearchTree:
         '''
 
         if self.root is None:
-            print("Tree is empty!")
+            print("tree is empty!")
             return -1
 
         current = self.root
@@ -161,7 +161,7 @@ class BinarySearchTree:
         Helper function to find the maximum value recursively
         '''
         if self.root is None:
-            print("Tree is empty!")
+            print("tree is empty!")
             return -1
 
         elif node.right is None:
@@ -282,7 +282,7 @@ class BinarySearchTree:
 
     def is_bst(self):
         '''
-        Function to check if the given tree is a Binary Search Tree
+        Function to check if the given tree is a Binary Search tree
         :return: True if it BST, else False
 
         Time Complexity : O(n)

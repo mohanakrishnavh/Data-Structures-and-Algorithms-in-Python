@@ -54,7 +54,7 @@ class Graph:
         return value in self.vertex_list
 
 '''
-g = Graph()
+g = graph()
 for i in range(10):
     g.add_vertex(i)
 

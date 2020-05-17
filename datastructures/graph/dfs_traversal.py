@@ -1,4 +1,4 @@
-from DataStructures.Graph.Graph import Graph
+from datastructures.graph.Graph import Graph
 
 
 def dfs_traversal(graph, source):

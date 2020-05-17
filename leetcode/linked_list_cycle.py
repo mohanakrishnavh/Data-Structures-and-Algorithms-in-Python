@@ -1,4 +1,4 @@
-from DataStructures.LinkedList.LinkedList import Node, LinkedList
+from datastructures.linkedlist.LinkedList import Node, LinkedList
 from typing import Union
 
 

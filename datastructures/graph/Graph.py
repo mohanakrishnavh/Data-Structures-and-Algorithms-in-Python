@@ -1,10 +1,10 @@
-from DataStructures.LinkedList.LinkedList import LinkedList
+from datastructures.linkedlist.LinkedList import LinkedList
 
 
 class Graph:
     def __init__(self, vertices, is_directed=True):
         self.is_directed = is_directed
-        # Total number of vertices in the Graph
+        # Total number of vertices in the graph
         self.vertices = vertices
         # Dictionary that holds the adjacency list for all the vertices
         self.adjacency_list = {}

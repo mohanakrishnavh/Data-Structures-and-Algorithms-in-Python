@@ -9,7 +9,7 @@ class Node:
 
 def reverse_linked_list(head):
     '''
-    Reversing a Linked List using Stack
+    Reversing a Linked List using stack
     :param head: Head of the Linked List
     :return: Reversed Linked List
     '''

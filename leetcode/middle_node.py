@@ -1,5 +1,5 @@
 from typing import Union
-from DataStructures.LinkedList.LinkedList import LinkedList, Node
+from datastructures.linkedlist.LinkedList import LinkedList, Node
 
 
 def get_middle_node(head: Node) -> Union[Node, None]:

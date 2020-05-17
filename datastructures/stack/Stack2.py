@@ -27,7 +27,7 @@ class Stack:
         Removes the topmost element from the stack
         '''
         if self.head is None:
-            print("Stack is empty")
+            print("stack is empty")
         else:
             current = self.head
             new_head = current.next
@@ -49,7 +49,7 @@ class Stack:
         Returns the topmost element from the stack
         '''
         if self.head is None:
-            print("Stack is empty.")
+            print("stack is empty.")
         else:
             current = self.head
             return current.data

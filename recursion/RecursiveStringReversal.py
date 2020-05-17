@@ -4,7 +4,7 @@ def recursive_string_reversal(s, output=None):
     if len(s) <= 1:
         return s
 
-    # Recursion
+    # recursion
     else:
         if output is None:
             output = ""
@@ -25,7 +25,7 @@ def reverse(s):
     if len(s) <= 1:
         return s
 
-    # Recursion
+    # recursion
     return reverse(s[1:]) + s[0]
 
 '''

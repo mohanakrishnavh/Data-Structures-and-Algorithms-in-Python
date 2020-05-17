@@ -3,7 +3,7 @@ from Stack import Stack
 
 def reverse_string(S):
     '''
-    Reverse a String using Stack
+    Reverse a String using stack
     :param S: Input String
     :return: Reversed String
 

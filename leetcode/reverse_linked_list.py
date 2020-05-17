@@ -1,4 +1,4 @@
-from DataStructures.LinkedList.LinkedList import LinkedList, Node
+from datastructures.linkedlist.LinkedList import LinkedList, Node
 
 
 def reverse_linked_list(head: Node) -> Node:

@@ -1,4 +1,4 @@
-from DataStructures.Graph.Graph import Graph
+from datastructures.graph.Graph import Graph
 from collections import deque
 
 

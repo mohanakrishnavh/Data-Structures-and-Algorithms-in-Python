@@ -1,5 +1,5 @@
-from DataStructures.LinkedList.LinkedList import LinkedList
-from DataStructures.LinkedList.LinkedList import Node
+from datastructures.linkedlist.LinkedList import LinkedList
+from datastructures.linkedlist.LinkedList import Node
 
 
 def add_two_numbers(l1: Node, l2: Node) -> Node:

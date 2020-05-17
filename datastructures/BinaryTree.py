@@ -1,4 +1,4 @@
-# Implementation of a Binary Tree
+# Implementation of a Binary tree
 class BinaryTree:
     def __init__(self, value):
         self.element = value

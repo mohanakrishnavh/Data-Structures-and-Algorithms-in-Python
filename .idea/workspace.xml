@@ -2,16 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30acc376-3cb5-4495-a926-df44c0b73f03" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Leetcode/is_happy_number.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/linked_list_cycle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/middle_node.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/remove_duplicates.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/remove_element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/sorted_squares.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Leetcode/target_sum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctc/linkedlist/remove_duplicates.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/MoveZeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/move_zeros.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Leetcode/ValidPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/Leetcode/valid_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/BinaryTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/BinaryTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/Deque.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/DictionaryExample.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/DictionaryExample.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/graph/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/_Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/graph/_Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/bfs_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/graph/bfs_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/dfs_traversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/graph/dfs_traversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Graph/graph_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/graph/graph_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/HashSet.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/HashSet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/LinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/linkedlist/LinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/LinkedList/list_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/linkedlist/list_driver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/PriorityQueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/PriorityQueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/Queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/Stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/Stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/Stack2.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/Stack2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/balanced_parantheses.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/balanced_parantheses.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/postfix_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/postfix_evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/prefix_evaluation.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/prefix_evaluation.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/reverse_linked_list_using_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/reverse_linked_list_using_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Stack/reverse_string_using_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/stack/reverse_string_using_stack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Tree/BinarySearchTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/tree/BinarySearchTree.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Tree/BinarySearchTreeDriver.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/tree/BinarySearchTreeDriver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataStructures/Tree/TreeAsLists.py" beforeDir="false" afterPath="$PROJECT_DIR$/datastructures/tree/TreeAsLists.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank/DynamicArray.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/DynamicArray.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank/HourGlassSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/HourGlassSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackerrank/ReverseArrayInplace.py" beforeDir="false" afterPath="$PROJECT_DIR$/hackerrank/ReverseArrayInplace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interview/buy_sell_stock.py" beforeDir="false" afterPath="$PROJECT_DIR$/interview/buy_sell_stock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/DeleteNodeLinkedList.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/DeleteNodeLinkedList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/DetectCapitalUse.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/DetectCapitalUse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/ReverseString.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/ReverseString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/ReverseWordsinaString.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/ReverseWordsinaString.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/ToLowerCase.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/ToLowerCase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/add_two_numbers.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/add_two_numbers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/atoi.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/atoi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/find_minimum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/find_minimum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/first_non_repeating_integer.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/first_non_repeating_integer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/is_happy_number.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/is_happy_number.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/linked_list_cycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/linked_list_cycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/merge_sorted_arrays.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/merge_sorted_arrays.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/middle_node.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/middle_node.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/move_zeros.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/move_zeros.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/product_except_self.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/product_except_self.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/rearrange_positive_and_negative_values.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/rearrange_positive_and_negative_values.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/remove_duplicates.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/remove_duplicates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/remove_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/remove_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/reverse_linked_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/reverse_linked_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/rotate_array.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/rotate_array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/second_maximum_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/second_maximum_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/sorted_squares.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/sorted_squares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/target_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/target_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/two_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/two_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Leetcode/valid_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/leetcode/valid_palindrome.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/01-FirstClass.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/01-FirstClass.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/02-ClassInstanceVariables.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/02-ClassInstanceVariables.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/03-StaticAndClassMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/03-StaticAndClassMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/04-Inheritance.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/04-Inheritance.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/05-SpecialMethods.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/05-SpecialMethods.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OOPs/06-PropertyDecorators.py" beforeDir="false" afterPath="$PROJECT_DIR$/oops/06-PropertyDecorators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/RecursiveFactorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/RecursiveFactorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/RecursiveStringReversal.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/RecursiveStringReversal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/RecursiveSum.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/RecursiveSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/RecursiveSumofDigits.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/RecursiveSumofDigits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Recursion/RecursiveWordSplit.py" beforeDir="false" afterPath="$PROJECT_DIR$/recursion/RecursiveWordSplit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +104,7 @@
       <recent name="C:\Emkae\Data-Structures-and-Algorithms-in-Python\DataStructures\Graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.graph_driver">
+  <component name="RunManager" selected="Python.remove_duplicates">
     <configuration name="LinkedList" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Data-Structures-and-Algorithms-in-Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -116,8 +171,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="remove_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data-Structures-and-Algorithms-in-Python" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ctc/linkedlist" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctc/linkedlist/remove_duplicates.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.remove_duplicates" />
         <item itemvalue="Python.graph_driver" />
         <item itemvalue="Python.LinkedList" />
         <item itemvalue="Python.add_two_numbers" />
@@ -156,6 +234,7 @@
       <workItem from="1584283686671" duration="969000" />
       <workItem from="1584291896044" duration="113000" />
       <workItem from="1584799392124" duration="130000" />
+      <workItem from="1589718427308" duration="1582000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Linked List Implementation">
       <created>1580956023129</created>
@@ -175,38 +254,35 @@
     <option name="LAST_COMMIT_MESSAGE" value="Finished Linked List Implementation" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="583" y="29" key="CommitChangelistDialog2" timestamp="1580956022626">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="583" y="29" key="CommitChangelistDialog2/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580956022626" />
     <state x="546" y="186" key="FileChooserDialogImpl" timestamp="1584284907519">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="546" y="186" key="FileChooserDialogImpl/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284907519" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1584284915778">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1589720277609">
+      <screen x="-1920" y="-477" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-477.1920.1040@-1920.-477.1920.1040" timestamp="1589720277609" />
     <state width="1877" height="261" key="GridCell.Tab.0.bottom/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1584284915778">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1589720277608">
+      <screen x="-1920" y="-477" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-477.1920.1040@-1920.-477.1920.1040" timestamp="1589720277608" />
     <state width="1877" height="261" key="GridCell.Tab.0.center/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1584284915777">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1589720277608">
+      <screen x="-1920" y="-477" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-477.1920.1040@-1920.-477.1920.1040" timestamp="1589720277608" />
     <state width="1877" height="261" key="GridCell.Tab.0.left/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915777" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1584284915778">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1589720277608">
+      <screen x="-1920" y="-477" width="1920" height="1040" />
     </state>
+    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-477.1920.1040@-1920.-477.1920.1040" timestamp="1589720277608" />
     <state width="1877" height="261" key="GridCell.Tab.0.right/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1584284915778" />
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580956043713">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="767" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.148.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1580956043713" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Data_Structures_and_Algorithms_in_Python$add_two_numbers.coverage" NAME="add_two_numbers Coverage Results" MODIFIED="1581782610963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Leetcode" />
     <SUITE FILE_PATH="coverage/Data_Structures_and_Algorithms_in_Python$LinkedList.coverage" NAME="LinkedList Coverage Results" MODIFIED="1581782724012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructures/LinkedList" />
     <SUITE FILE_PATH="coverage/Data_Structures_and_Algorithms_in_Python$graph_driver.coverage" NAME="graph_driver Coverage Results" MODIFIED="1584283919624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DataStructures/Graph" />
+    <SUITE FILE_PATH="coverage/Data_Structures_and_Algorithms_in_Python$remove_duplicates.coverage" NAME="remove_duplicates Coverage Results" MODIFIED="1589720277598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ctc/linkedlist" />
   </component>
 </project>
